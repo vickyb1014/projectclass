@@ -28,7 +28,9 @@ public static void loadUrl(String url) {
 }
 public static void getTitle() {
 driver.getTitle();
+System.out.println("Git");
 }
+
 public static void getCurrentUrl() {
 String currentUrl = driver.getCurrentUrl();
 System.out.println(currentUrl);
