@@ -50,7 +50,7 @@ driver.quit();
 }
 public static String getDataFromExcel(int rowNo, int cellNo) throws Throwable {
 String value = null;
-File f = new File("C:\\Users\\Admin\\eclipse-workspace\\Excel\\jar\\Excel.xlsx");
+File f = new File("C:\\Users\\Admin\\eclipse-workspace\\projectclass\\jar\\Excel.xlsx");
 FileInputStream st = new FileInputStream(f);
 Workbook w = new XSSFWorkbook(st);
 Sheet s = w.getSheet("Sheet1");
